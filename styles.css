@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(33, 73, 107);
+    margin:0;
+}
+#Heading, .player, .dice, .creator{
+    text-align: center;
+}
+#Heading h1{
+    font-size:6rem;
+    margin-bottom:0;
+    color:rgb(139, 199, 137);
+}
+.player{
+    margin-top:1rem;
+}
+.player h4{
+    display: inline-block;
+    padding-right:3rem;
+    font-size: 2rem;
+    color:rgb(139, 199, 137);
+}
+#player2{
+    padding-left:3rem;
+}
+.dice{
+    height: 10rem;
+}
+.dice img{
+    margin-left: 1rem;
+    margin-right: 3rem;
+    width: 150px;
+    height: 150px;
+}
+.creator{
+    margin-top:4rem;
+    font-size: 1.3rem;
+}
+button{
+    width:9rem;
+    height:3rem;
+    font-size:1.5rem;
+    border-radius: 0.5rem;
+    color:rgb(139, 199, 137);
+    background-color: rgb(33, 73, 107);
+}
+button:hover{
+    color:rgb(85, 87, 9);
+    background-color: rgb(145, 198, 245);
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
