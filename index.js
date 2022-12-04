@@ -8,8 +8,8 @@ document.querySelector("button").addEventListener("click", function(){
     let dice1=Math.floor(Math.random()*6)+1;
     let dice2=Math.floor(Math.random()*6)+1;
     
-    document.querySelector("#dice1").src="images/dice"+dice1+".png";
-    document.querySelector("#dice2").setAttribute("src","images/dice"+dice2+".png");
+    document.querySelector("#dice1").src="Images/dice"+dice1+".png";
+    document.querySelector("#dice2").setAttribute("src","Images/dice"+dice2+".png");
 
     let x=document.querySelector("h1");
     console.log(x);
